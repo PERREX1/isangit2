@@ -1,0 +1,15 @@
+// definimos los colores a emplear de la marca, estos estan 
+// caterorizados con el prefijo color y el valor en el proyecto
+
+$colormarcapri: #F23D3D;
+$colormarcasec: #f2f2f2;
+$colorbg: #262626;
+
+// modificamos opciones nativas de bootstrap 
+
+$enable-shadows: true;
+$enable-gradients: true;
+$font-family-sans-serif:      system-ui, -apple-system, "Segoe UI", Roboto, "Roboto Condensed", "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+
+@import "lib/bootstrap/scss/bootstrap.scss";

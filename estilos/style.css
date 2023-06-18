@@ -1,0 +1,94 @@
+/* Estilos CSS 
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .d-flex {
+    height: 100px;
+    background-color: #333;
+  }
+  
+
+
+  .d-flex img {
+    height: 100%;
+    max-height: 100%;
+  }
+  
+
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info {
+    padding: 50px 0;
+  }
+  
+  .info p {
+    font-size: 18px;
+  }
+  
+  .info img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  
+  .info img:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .store {
+    margin-bottom: 60px;
+  }
+  
+  .store-item {
+    margin-bottom: 30px;
+  }
+  
+  .store-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .store-item img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  footer .navbar-brand {
+    color: #fff;
+    padding: -10px;
+  }
+  
+  footer .nav-link {
+    color: #fff;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  */
