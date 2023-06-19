@@ -21,14 +21,15 @@
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="home" class="navbar-brand">
+          <!--Logo principal de la empresa-->
             <img width="120" height="120" src="estilos/imgs/logo.png" alt="logo">
         </a>
        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0">
-         <li><a href="1" class="nav-link px-2 text-secondary">Inicio</a></li>
-         <li><a href="2" class="nav-link px-2 text-white">Nosotros</a></li>
-         <li><a href="3" class="nav-link px-2 text-white">Ofertas</a></li>
-         <li><a href="4" class="nav-link px-2 text-white">Productos</a></li>
-         <li><a href="5" class="nav-link px-2 text-white">Acerca</a></li>
+         <li><button type="button" href="1" class="text-white btn btn-link">Inicio</button></li>
+         <li><button type="button" href="2" class="text-white btn btn-link">Nosotros</button></li>
+         <li><button type="button" href="3" class="text-white btn btn-link">Ofertas</button></li>
+         <li><button type="button" href="4" class="text-white btn btn-link">Productos</button></li>
+         <li><button type="button" href="5" class="text-white btn btn-link">Compras</button></li>
        </ul>
        <div class="text-end">
          <button type="button" class="btn btn-outline-light me-2">Ingresar</button>
@@ -48,6 +49,7 @@
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </ol>
     <div class="carousel-inner">
+      <!--Aca van cada uno de los items del Salider-->
       <div class="carousel-item active">
         <img src="estilos/imgs/imgslider/Imagen-Uno.jpg" class="d-block w-100" alt="Slider Image 1">
         <div class="container">
@@ -58,6 +60,7 @@
             </div>
         </div>
       </div>
+
       <div class="carousel-item">
         <img src="estilos/imgs/imgslider/Imagen-Dos.jpg" class="d-block w-100" alt="Slider Image 2">
         <div class="container">
@@ -68,6 +71,7 @@
              </div>
         </div>
       </div>
+
       <div class="carousel-item">
         <img src="estilos/imgs/imgslider/Imagen-Tres.jpg" class="d-block w-100" alt="Slider Image 3">
       </div>
@@ -88,7 +92,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 p-4">
+          <!-- Titulo del texto -->
             <p class="h1 Roboto">Nosotros te guiamos</p>
+
+            <!-- Informacion del texto-->
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales consectetur libero,
              vitae facilisis ipsum mollis a. Nam sed ligula felis. Fusce euismod turpis eros, et semper 
              lorem fringilla sed. Praesent consequat lacus vitae vestibulum malesuada.</p>
@@ -104,71 +111,71 @@
   <section class="store">
     <div class="container mt-5">
         <div class="p-2 mt-2 mx-auto">
-            <p class="h1 mx-auto p-2">Ofertas Especiales</p>
+            <p class="h1 mx-auto p-3">Ofertas Especiales</p>
         </div>
       <div class="row">
-        <div class="col-md-3 m-2">
-          <div class="store-item">
+        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
             <img src="estilos/imgs/products/gamer.png" height="250" width="250" alt="Product 1">
-            <h4>Gamer</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-primary">Comprar</button>
+            <div class="card-body">
+            <h4 class="card-title Roboto h2">Gamer</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn btn-danger">Comprar</button>
           </div>
         </div>
-        <div class="col-md-3 m-2">
-          <div class="store-item">
+        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
             <img src="estilos/imgs/products/tv-b.png" height="250" width="250" alt="Product 2">
-            <h4>TV Box</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-primary">Comprar</button>
+            <div class="card-body">
+            <h4 class="card-title Roboto h2">TV Box</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn btn-danger">Comprar</button>
           </div>
         </div>
-        <div class="col-md-3 m-2">
-          <div class="store-item">
+        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
             <img src="estilos/imgs/products/charg.png" height="250" width="250" alt="Product 3">
-            <h4>Cargador</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-primary">Comprar</button>
+            <div class="card-body">
+              <h4 class="card-title Roboto h2">Cargador</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <button class="btn btn-danger">Comprar</button>
           </div>
         </div>
-        <div class="col-md-3 m-2">
-          <div class="store-item">
+        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
             <img src="estilos/imgs/products/osea.png" height="250" width="250" alt="Product 4">
-            <h4>BT conduccion osea</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-primary">Comprar</button>
+            <div class="card-body">
+              <h4 class="card-title Roboto h2">BT conduccion osea</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-danger">Comprar</button>
           </div>
         </div>
-        <div class="col-md-3 m-2">
-            <div class="store-item">
+        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
               <img src="estilos/imgs/products/visio.png" height="250" width="250" alt="Product 5">
-              <h4>Binoculares</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-primary">Comprar</button>
+              <div class="card-body">
+                <h4 class="card-title Roboto h2">Binoculares</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <button class="btn btn-danger">Comprar</button>
             </div>
           </div>
-          <div class="col-md-3 m-2">
-            <div class="store-item">
+          <div class="card m-3 p-3 border-danger" style="width: 18rem;">
               <img src="estilos/imgs/products/mouse.png" height="250" width="250" alt="Product 6">
-              <h4>Mouse gamer</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-primary">Comprar</button>
-            </div>
+              <div class="card-body">
+                <h4 class="card-title Roboto h2">Mouse gamer</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn btn-danger">Comprar</button>
+              </div>
           </div>
-          <div class="col-md-3 m-2">
-            <div class="store-item">
+          <div class="card m-3 p-3 border-danger" style="width: 18rem;">
               <img src="estilos/imgs/products/rad2.png" height="250" width="250" alt="Product 7">
-              <h4>Radio</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-primary">Comprar</button>
-            </div>
+              <div class="card-body">
+                <h3 class="card-title Roboto h2">Radio</h3>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn btn-danger">Comprar</button>
+              </div>
           </div>
-          <div class="col-md-3 m-2">
-            <div class="store-item">
-              <img src="estilos/imgs/products/rad3.png" height="250" width="250" alt="Product 8">
-              <h4>Radio</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-primary">Comprar</button>
+          <div class="card border-danger m-3 p-3" style="width: 18rem;">
+              <img class="card-img-top" src="estilos/imgs/products/rad3.png" height="250" width="250" alt="Product 8">
+              <div class="card-body">
+                <h5 class="card-title Roboto h2">Radio</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <button class="btn btn-danger">Comprar</button>
             </div>
           </div>
       </div>
