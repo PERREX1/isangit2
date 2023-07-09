@@ -431,10 +431,7 @@ legend + * {
   outline-offset: -2px;
   -webkit-appearance: textfield;
 }
-a{
-  text-decoration: none;
-  color: #badce3;
-}
+
 /* rtl:raw:
 [type="tel"],
 [type="url"],

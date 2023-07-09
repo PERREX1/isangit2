@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="inicio.css">
+         
+    <title>Inicio de Sesion</title> 
+</head>
+<body>
+  <img src="/estilos/imgs/logo.png" alt="ISAN-TECH">
+    
+    <div class="container">
+        <div class="forms">
+            <div class="form login">
+                <span class="title">Login</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="logCheck">
+                            <label for="logCheck" class="text">Recordarme</label>
+                        </div>
+                        
+                        <a href="#" class="text">Olvide Mi Contraseña?</a>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Iniciar">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">No Estas Registrado?
+                        <a href="#" class="text signup-link">Registrarse</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Registrarse</span>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <i class="uil uil-user"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" placeholder="Email" required>
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Creacion Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirmacion Contraseña" required>
+                        <i class="uil uil-lock icon"></i>
+                        <i class="uil uil-eye-slash showHidePw"></i>
+                    </div>
+
+                    <div class="checkbox-text">
+                        <div class="checkbox-content">
+                            <input type="checkbox" id="termCon">
+                            <label for="termCon" class="text">Acepto Los Terminos y Condiciones</label>
+                        </div>
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Registrarse">
+                        <button><a href="/index.html">registro</a></button>
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text">Ya Estoy Registrado
+                        <a href="#" class="text login-link">Inicio De Sesion</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <script src="inicio.js"></script> 
+</body>
+</html>

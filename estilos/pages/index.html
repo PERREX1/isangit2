@@ -1,239 +1,179 @@
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ISAN-TECH Solutions</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/estilos/style.css">
-  <link rel="stylesheet" href="cssb/styleb.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>carrito de compras</title>
+  </head>
+  <body>
+    <nav>
+      <img src="./icons/icon_menu.svg" alt="menu" class="menu" />
+
+      <div class="navbar-left">
+        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+
+        <ul>
+          <li>
+            <a href="/">inicio</a>
+          </li>
+          <li>
+            <a href="/">nosotros</a>
+          </li>
+          <li>
+            <a href="/">ofertas</a>
+          </li>
+          <li>
+            <a href="/">productos</a>
+          </li>
+          <li>
+            <a href="/">compras</a>
+          </li>
+          <li>
+            <a href="/">Others</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="navbar-right">
+        <ul>
+          <li class="navbar-email">gus@example.com</li>
+          <li class="navbar-shopping-cart">
+            <img class="navbar-shopping-cart__icon"src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
+            <div class="navbar-shopping-cart__number">0</div>
+          </li>
+        </ul>
+      </div>
+      <div class="desktop-menu inactive">
+        <ul>
+          <li>
+            <a href="clase10.html" class="title">ordenes</a>
+          </li>
+
+          <li>
+            <a href="clase5.html">Mi cuenta</a>
+          </li>
+
+          <li>
+            <a href="clase3.html">Sign out</a>
+          </li>
+        </ul>
+      </div>
+      <div class="mobile-menu inactive">
+        <ul>
+          <li>
+            <a href="/">CATEGORIES</a>
+          </li>
+          <li>
+            <a href="/">All</a>
+          </li>
+          <li>
+            <a href="/">Clothes</a>
+          </li>
+          <li>
+            <a href="/">Electronics</a>
+          </li>
+          <li>
+            <a href="/">Furnitures</a>
+          </li>
+          <li>
+            <a href="/">Toys</a>
+          </li>
+          <li>
+            <a href="/">Other</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="clase10.html">My orders</a>
+          </li>
+          <li>
+            <a href="clase5.html">My account</a>
+          </li>
+        </ul>
+
+        <ul>
+          <li>
+            <a href="/" class="email">platzi@example.com</a>
+          </li>
+          <li>
+            <a href="clase3.html" class="sign-out">Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <aside class="order-detail inactive">
+      <div class="title-container">
+        <img src="./icons/flechita.svg" alt="arrow">
+        <p class="title">My order</p>
+      </div>
   
-</head>
-
-<body background="estilos/imgs/bgmac.png">
-
-
-<!-- menu new -->
-<section id="home" class="menu-head">
-  <nav class="p-3 bg-dark text-white">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <a href="home" class="navbar-brand">
-          <!--Logo principal de la empresa-->
-            <img width="120" height="120" src="estilos/imgs/logo.png" alt="logo">
-        </a>
-       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0">
-         <li><a type="button" href="#home" class="text-white nav-link btn btn-link">Inicio</a></li>
-         <li><a type="button" href="#informa" class="text-white nav-link btn btn-link">Nosotros</a></li>
-         <li><a type="button" href="#ofertas1" class="text-white nav-link btn btn-link">Ofertas</a></li>
-         <!-- Este link va a la otra pagina de productos completa -->
-         <li><a type="button" href="productos completos" class="text-white nav-link btn btn-link">Productos</a></li>
-         <!-- Este link lleva a la pagina completa de la tienda y carrito-->
-         <li><a type="button" href="indexcarrito.html" class="text-white nav-link btn btn-link">Compras</a></li>
-       </ul>
-       <div class="text-end">
-        <!-- este boton nos lleva a la pagina de inicio de sesion -->
-         <button type="button" class="btn btn-outline-light me-2">Ingresar</button>
-         <!-- Este boton nos lleva a la pagina de registrarse-->
-         <button type="button" class="btn btn-danger">Registrarse</button>
-       </div>
+      <div class="my-order-content">
+       <div class="order-products-container">
+        <!-- <div class="shopping-cart" index=1>
+          <figure>
+            <img src="https://www.acrossthespiderverse.movie/images/synopsis_poster.jpg" alt="spiderman">
+          </figure>
+          <p>spiderman</p>
+          <p>$30,00</p>
+        <img class="close-icon" src="./icons/icon_close.png" alt="close">
+        </div> -->
+      </div>
+         <!-- <div class="order">
+          <p>
+            <span>Total</span>
+          </p>
+          <p>$560.00</p>
+        </div> -->
+  
+        <!-- <button class="primary-button"'>
+          Checkout
+        </button> -->
       </div>
     </div>
-  </nav>
-</section>
-
-  <!-- Sección del slider -->
-<section class="slider-n">  
-  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    <ol class="carousel-indicators">
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </ol>
-    <div class="carousel-inner">
-      <!--Aca van cada uno de los items del Salider-->
-      <div class="carousel-item active">
-        <img src="estilos/imgs/imgslider/Imagen-Uno.jpg" class="d-block w-100" alt="Slider Image 1">
-        <div class="container">
-            <div class="carousel-caption text-start">
-               <h1>Tu tienda en linea.</h1>
-               <p>Nunca fue tan facil tener tu tienda On line.</p>
-               <p><a class="btn btn-lg btn-primary" href="#">Regístrate hoy!</a></p>
+    </aside>
+    <aside class="product-detail inactive">
+      <div class="product-detail-close">
+        <img src="./icons/icon_close.png" alt="close">
+      </div>
+      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+      <div class="product-info">
+        <p>$35,00</p>
+        <p>Bike</p>
+        <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
+        <button class="primary-button add-to-cart-button">
+          <img src="./icons/bt_add_to_cart.svg" alt="add to cart" index = '-1'>
+          Add to cart
+        </button>
+      </div>
+    </aside>
+    <section class="main-container">
+      <div class="cards-container">
+        <!-- <div class="product-card">
+          <img src="https://media.wired.com/photos/64790f5a0b67c709cbcaa9b5/master/w_2560%2Cc_limit/Spider-Man-Across-The-Spider-Verse-Monitor-Culture.jpg" alt="">
+          <div class="product-info" ">
+            <div>
+              <p>$120,00</p>
+              <p>Bike</p>
             </div>
-        </div>
+            <figure>
+              <img src="./icons/bt_add_to_cart.svg" alt="" index="1>
+            </figure>
+          </div>
+          </div> 
+           -->
+      <!-- Products Cards in HERE -->
       </div>
-
-      <div class="carousel-item">
-        <img src="estilos/imgs/imgslider/Imagen-Dos.jpg" class="d-block w-100" alt="Slider Image 2">
-        <div class="container">
-            <div class="carousel-caption">
-               <h1>Quieres saber como lograrlo?</h1>
-               <p>De la mano del mejor equipo lo podras conseguir.</p>
-               <p><a class="btn btn-lg btn-primary" href="#">Más información</a></p>
-             </div>
-        </div>
-      </div>
-
-      <div class="carousel-item">
-        <img src="estilos/imgs/imgslider/Imagen-Tres.jpg" class="d-block w-100" alt="Slider Image 3">
-      </div>
-    </div>
-    <button type="button" class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-    <button type="button" class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-  </div>
-</section>
-
-  <!-- Sección de información -->
-  <section id="informa" class="info mt-5 mb-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 p-4">
-          <!-- Titulo del texto -->
-            <p class="h1 Roboto">Nosotros te guiamos</p>
-
-            <!-- Informacion del texto-->
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sodales consectetur libero,
-             vitae facilisis ipsum mollis a. Nam sed ligula felis. Fusce euismod turpis eros, et semper 
-             lorem fringilla sed. Praesent consequat lacus vitae vestibulum malesuada.</p>
-        </div>
-        <div class="col-md-6">
-          <img src="estilos/imgs/product.png" alt="Info Image" class="img-fluid">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sección de la tienda -->
-  <section id="ofertas1" class="store">
-    <div class="container mt-5">
-        <div class="p-2 mt-2 mx-auto">
-            <p class="h1 mx-auto p-3">Ofertas Especiales</p>
-        </div>
-      <div class="row">
-        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-            <img src="estilos/imgs/products/gamer.png" height="250" width="250" alt="Product 1">
-            <div class="card-body">
-            <h4 class="card-title Roboto h2">Gamer</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-danger">Comprar</button>
-          </div>
-        </div>
-        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-            <img src="estilos/imgs/products/tv-b.png" height="250" width="250" alt="Product 2">
-            <div class="card-body">
-            <h4 class="card-title Roboto h2">TV Box</h4>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-danger">Comprar</button>
-          </div>
-        </div>
-        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-            <img src="estilos/imgs/products/charg.png" height="250" width="250" alt="Product 3">
-            <div class="card-body">
-              <h4 class="card-title Roboto h2">Cargador</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <button class="btn btn-danger">Comprar</button>
-          </div>
-        </div>
-        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-            <img src="estilos/imgs/products/osea.png" height="250" width="250" alt="Product 4">
-            <div class="card-body">
-              <h4 class="card-title Roboto h2">BT conduccion osea</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-danger">Comprar</button>
-          </div>
-        </div>
-        <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-              <img src="estilos/imgs/products/visio.png" height="250" width="250" alt="Product 5">
-              <div class="card-body">
-                <h4 class="card-title Roboto h2">Binoculares</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <button class="btn btn-danger">Comprar</button>
-            </div>
-          </div>
-          <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-              <img src="estilos/imgs/products/mouse.png" height="250" width="250" alt="Product 6">
-              <div class="card-body">
-                <h4 class="card-title Roboto h2">Mouse gamer</h4>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn btn-danger">Comprar</button>
-              </div>
-          </div>
-          <div class="card m-3 p-3 border-danger" style="width: 18rem;">
-              <img src="estilos/imgs/products/rad2.png" height="250" width="250" alt="Product 7">
-              <div class="card-body">
-                <h3 class="card-title Roboto h2">Radio</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn btn-danger">Comprar</button>
-              </div>
-          </div>
-          <div class="card border-danger m-3 p-3" style="width: 18rem;">
-              <img class="card-img-top" src="estilos/imgs/products/rad3.png" height="250" width="250" alt="Product 8">
-              <div class="card-body">
-                <h5 class="card-title Roboto h2">Radio</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <button class="btn btn-danger">Comprar</button>
-            </div>
-          </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Sección del footer -->
-  <footer>
-    <div class="container bg-dark text-white p-2 mt-4">
-      <div class="row">
-        <div class="col-md-4">
-          <a class="navbar-brand" href="home"><img height="160" width="200" src="estilos/imgs/logo.png" alt="Footer Logo"></a>
-        </div>
-        <div class="col-md-4">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Item 1</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Item 2</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Item 3</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Item 4</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Item 5</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Item 6</a>
-              </li>
-            </ul>
-          </div>
-        <div class="col-md-4">
-          <div class="social-media">
-            <a href="https://www.facebook.com"><img src="facebook-icon.png" alt="Facebook"></a>
-            <a href="https://www.instagram.com"><img src="instagram-icon.png" alt="Instagram"></a>
-            <a href="https://www.linkedin.com"><img src="linkedin-icon.png" alt="LinkedIn"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
-<!-- este link es por si queremos usar la libreria tal cual de boostrap -->
-
-  <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script> -->
-  <!-- este es nuestro JS base bosstrap personalizado -->
-  <script src="estilos/lib/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script src="script.js"></script>
-</body>
+    </section>
+    <script src="main.js "></script>  
+  </body>
 </html>
